@@ -1,4 +1,4 @@
-# Pulsera Pasiva Linux
+# Pulsera Pasiva
 
 ![Pulsera Pasiva](images/logo.png)
 
