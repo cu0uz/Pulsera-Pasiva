@@ -14,7 +14,7 @@ Con este proyecto se desea poder crear una pulsera que pueda llevar el usuario a
 
 Para este proyecto usamos la distribución MX-LINUX....
 
-(images/PWRD-BY-MX-LINUX.png)
+![DISTRIBUCION](images/PWRD-BY-MX-LINUX.png)
 
 
 # Licencia
