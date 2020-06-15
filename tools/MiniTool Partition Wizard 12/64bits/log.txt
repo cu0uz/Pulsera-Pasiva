@@ -1,0 +1,36 @@
+=====================================================================================
+2020-04-01 07:20:38:234 => [                                                    main.cpp, 00061] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2020-04-01 07:20:38:234 => [                                                    main.cpp, 00062] => System is server:No
+2020-04-01 07:20:38:234 => [                                                    main.cpp, 00063] => Software is 64 bit:Yes
+2020-04-01 07:20:38:234 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2020-04-01 07:21:13:435 => [                                                 idriver.cpp, 00175] => CreateService failed!  Error = 1115
+2020-04-01 07:21:13:502 => [                                                 idriver.cpp, 00477] => ControlService failed!  Error = 1062 
+
+2020-04-01 07:21:13:553 => [                                                 idriver.cpp, 00175] => CreateService failed!  Error = 1115
+2020-04-01 07:21:13:566 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2020-04-01 07:21:14:412 => [                                          kvolumemanager.cpp, 00227] => Disk0, ST500DM002-1BD142 SATA, CHS:60801,255,63, total sectors: 976773168, bytes per sector = 512
+2020-04-01 07:21:18:066 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+=====================================================================================
+2020-06-15 15:41:48:147 => [                                                    main.cpp, 00061] => OS MajorVer:6 MiniorVer:3 ServicePack:0
+2020-06-15 15:41:48:147 => [                                                    main.cpp, 00062] => System is server:No
+2020-06-15 15:41:48:147 => [                                                    main.cpp, 00063] => Software is 64 bit:Yes
+2020-06-15 15:41:48:147 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2020-06-15 15:41:48:278 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2020-06-15 15:41:50:789 => [                                          kvolumemanager.cpp, 00227] => Disk0, TOSHIBA MQ01ABD050 SATA, CHS:60801,255,63, total sectors: 976773168, bytes per sector = 512
+2020-06-15 15:41:51:821 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2020-06-15 15:41:51:825 => [                                          kvolumemanager.cpp, 00227] => Disk1, SanDisk Ultra Fit USB, CHS:3738,255,63, total sectors: 60063744, bytes per sector = 512
+2020-06-15 15:41:52:069 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+2020-06-15 15:41:52:069 => [                                             dynamicdisk.cpp, 00215] => Disk1 is not a dynamic disk.
+2020-06-15 15:42:37:273 => [                                  kbatchcommandexecutive.cpp, 01412] => DeletePartition DiskIndex:1 Partition:1
+2020-06-15 15:42:37:274 => [                                                 kvolume.cpp, 00481] => Locking volume...
+2020-06-15 15:42:39:237 => [                                                 kvolume.cpp, 00486] => Succeed to lock volume.
+2020-06-15 15:42:39:237 => [                                                 kvolume.cpp, 00501] => Dismounting volume...
+2020-06-15 15:42:39:238 => [                                                 kvolume.cpp, 00506] => Succeed to dismount volume.
+2020-06-15 15:42:39:329 => [                                  kbatchcommandexecutive.cpp, 01412] => InitiateDisk DiskIndex:1 Style:0 ForceReboot:0 NoReservedGptPart:0
+2020-06-15 15:42:39:346 => [                                  kbatchcommandexecutive.cpp, 01412] => CreatePartition DiskIndex:1 StartingOffset:43274240 PartitionLength:16775168 PartTypeId:11 FsType:11 ClusterSize:16 Label:"" Letter:70 Active:0 Primary:1 BootVolume:0 SystemVolume:0 GptPartitionType:0
+2020-06-15 15:43:12:448 => [                                          kvolumemanager.cpp, 00227] => Disk0, TOSHIBA MQ01ABD050 SATA, CHS:60801,255,63, total sectors: 976773168, bytes per sector = 512
+2020-06-15 15:43:13:708 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2020-06-15 15:43:13:712 => [                                          kvolumemanager.cpp, 00227] => Disk1, SanDisk Ultra Fit USB, CHS:3738,255,63, total sectors: 60063744, bytes per sector = 512
+2020-06-15 15:43:14:064 => [                                          kvolumemanager.cpp, 00248] => Disk1 set alignmentFactor =AlignToMB
+2020-06-15 15:43:14:186 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+2020-06-15 15:43:14:186 => [                                             dynamicdisk.cpp, 00215] => Disk1 is not a dynamic disk.

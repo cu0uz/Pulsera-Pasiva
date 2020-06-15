@@ -1,0 +1,18 @@
+=====================================================================================
+2020-04-01 08:43:49:346 => [                                                    main.cpp, 00061] => OS MajorVer:6 MiniorVer:1 ServicePack:1
+2020-04-01 08:43:49:346 => [                                                    main.cpp, 00062] => System is server:No
+2020-04-01 08:43:49:346 => [                                                    main.cpp, 00063] => Software is 64 bit:No
+2020-04-01 08:43:49:346 => [                                                 idriver.cpp, 00575] => Failed to call myWow64DisableWow64FsRedirection()
+2020-04-01 08:43:49:346 => [                                                 idriver.cpp, 00618] => Copying 32 bit driver.
+2020-04-01 08:43:49:346 => [                                                 idriver.cpp, 00643] => Failed to call myWow64RevertWow64FsRedirection()
+2020-04-01 08:43:49:362 => [                                                 idriver.cpp, 00575] => Failed to call myWow64DisableWow64FsRedirection()
+2020-04-01 08:43:49:362 => [                                                 idriver.cpp, 00618] => Copying 32 bit driver.
+2020-04-01 08:43:49:362 => [                                                 idriver.cpp, 00643] => Failed to call myWow64RevertWow64FsRedirection()
+2020-04-01 08:43:50:173 => [                                          kvolumemanager.cpp, 00227] => Disk0, VMware, VMware Virtual S SAS, CHS:7832,255,63, total sectors: 125829120, bytes per sector = 512
+2020-04-01 08:43:50:579 => [                                          kvolumemanager.cpp, 00248] => Disk0 set alignmentFactor =AlignToMB
+2020-04-01 08:43:50:610 => [                                          kvolumemanager.cpp, 00227] => Disk1, VMware, VMware Virtual S SAS, CHS:10443,255,63, total sectors: 167772160, bytes per sector = 512
+2020-04-01 08:43:50:610 => [                                          kvolumemanager.cpp, 00227] => Disk2, VMware, VMware Virtual S SAS, CHS:13054,255,63, total sectors: 209715200, bytes per sector = 512
+2020-04-01 08:43:50:657 => [                                          kvolumemanager.cpp, 00248] => Disk2 set alignmentFactor =AlignToMB
+2020-04-01 08:43:50:735 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+2020-04-01 08:43:50:735 => [                                             dynamicdisk.cpp, 00215] => Disk1 is not a dynamic disk.
+2020-04-01 08:43:50:735 => [                                             dynamicdisk.cpp, 00215] => Disk2 is not a dynamic disk.
