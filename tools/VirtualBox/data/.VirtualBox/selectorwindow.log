@@ -1,0 +1,17 @@
+00:00:00.727819 VirtualBox GUI VM Selector Window 6.1.8 r137981 win.amd64 (May 14 2020 20:30:31) release log
+00:00:00.727819 Log opened 2020-06-15T16:09:23.404543400Z
+00:00:00.727819 Build Type: release
+00:00:00.727819 OS Product: Windows 8
+00:00:00.727819 OS Release: 6.2.9200
+00:00:00.727819 OS Service Pack: 
+00:00:00.734824 DMI Product Name: X550CA
+00:00:00.738826 DMI Product Version: 1.0       
+00:00:00.738826 Firmware type: UEFI
+00:00:00.751835 Secure Boot: Disabled
+00:00:00.751835 Host RAM: 8077MB (7.8GB) total, 4719MB (4.6GB) available
+00:00:00.751835 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.751835 Process ID: 2772
+00:00:00.751835 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.751835 Qt version: 5.6.2
+00:00:00.771848 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:02.418119 GUI: UIMediumEnumerator: Medium-enumeration finished!
