@@ -3,11 +3,21 @@
 LSB=/usr/bin/lsb_release
 
 cd /home
-
-clear 
+clear
+date
+echo -e "\e[0;32m*********************************************************************"
+echo -e "\e[0;32m* _____         _                     _____          _              *"
+echo -e "\e[0;32m* | __ \       | |                    | __ \        (_)             *"
+echo -e "\e[0;32m* | |_// _   _ | | __   __  _ _   __  | |_// __  __  _ __   __  __  *"
+echo -e "\e[0;32m* |  _/ | | | || |/ _| / _\|  _| /_ | |  _/ /_ |/ _|| |\ \ / / /_ | *"
+echo -e "\e[0;32m* | |   | |_| || |\_ \|  _/| |  |(_|| | |  |(_||\_ \| | \ V / |(_|| *"
+echo -e "\e[0;32m* \_|    \__ _||_||__/ \__||_|   \__| \_|   \__||__/|_|  \_/   \_ | *"
+echo -e "\e[0;32m*********************************************************************\e[0m"
+echo 
+echo 
 echo Vamos a añadir los repositorios al sistema
 echo 
-sleep 2s
+sleep 3s
 echo -e '##GKSU\ndeb http://deb.debian.org/debian/ stretch main\ndeb-src http://deb.debian.org/debian/ stretch main\n##backports\ndeb http://ftp.debian.org/debian/ buster-backports main non-free\ndeb-src http://ftp.debian.org/debian/ buster-backports main non-free\n##multimedia\ndeb http://www.deb-multimedia.org buster main non-free\ndeb http://www.deb-multimedia.org buster-backports main\n##ACTUALIZACIONES DE KERNELdeb http://mirrors.kernel.org/debian/ buster-updates main contrib non-free\ndeb-src http://mirrors.kernel.org/debian/ buster-updates main contrib non-free\ndeb http://mirrors.kernel.org/debian buster-proposed-updates main contrib non-free\ndeb-src http://mirrors.kernel.org/debian buster-proposed-updates main contrib non-free\n##ACTIVACIÓN DE LOS REPOSITORIOS PRIVATIVOS EN DEBIAN\ndeb http://ftp.de.debian.org/debian/ buster main contrib non-free\ndeb-src http://ftp.de.debian.org/debian/ buster main contrib non-free\ndeb http://security.debian.org/ buster/updates main contrib non-free\ndeb-src http://security.debian.org/ buster/updates main contrib non-free\n##SPOTIFY\ndeb http://repository.spotify.com stable non-free\n##ANYDESK\ndeb http://deb.anydesk.com/ all main\n##SKYPE\ndeb https://repo.skype.com/deb stable main' >> /etc/apt/sources.list
 wget https://downloads.sourceforge.net/project/programas-esenciales/deb-multimedia-keyring_2016.8.1_all.deb
 dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
