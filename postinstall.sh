@@ -94,6 +94,8 @@ apt-get purge $(deborphan --find-config)
 apt-get autoclean
 apt-get purge --autoremove
 
+rm /home/Pulsera-Pasiva
+
 echo Tarea finalizada, hasta luego.
 echo Powered by cu0uz
 sleep 5
