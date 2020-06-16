@@ -47,10 +47,10 @@ Antes de comenzar la instalación debemos de añadir el USB a la maquina visrtua
 
 Para la instalación cuando lleguemos al apartado de particiones, debemos de realizar dos particiones usando el gestor que trae el instalador:
 
-a) partición 1: 500mb para el boot
-b) pqrtición 2:  resto del almacenamiento
+a) Partición 1: 500mb para el boot
+b) Partición 2: Resto del almacenamiento
 
-Una vez particionado, seleccionamos primeramente el boot y en segundo lugar el root, pulsando sobre la oestaña de encriptado y asignandole un nombre comprensible.
+Una vez particionado, seleccionamos primeramente el boot y en segundo lugar el root, pulsando sobre la pestaña de encriptado y asignandole un nombre comprensible.
 
 Vamos aceptando y introduciendo los datos que nos solicita hasta completar la insyalación.
 
@@ -58,7 +58,9 @@ Ahora reiniciamos el sistema y arrancamos el PC desde el USB. Normalmente para e
 
 Paso 3.- Poner a punto la distribución
 
-Una vez el sistema este iniciado procedemos a ejecutar el script (postinstalacion.sh) que encontraremos en la carpeta tools.
+Una vez el sistema este iniciado procedemos a ejecutar el siguiente comando desde la línea de comandos estando logeado como root para evitar fallos:
+
+git clone https://github.com/cu0uz/Pulsera-Pasiva.git && cd Pulsera-Pasiva && chmod +x postinstall.sh && ./postinstall.sh
 
 Una vez finalizado ya puedes disfrutar de tu USB totalmente optimizado y disponible para su uso. Ahora puedes personalizarla a tu gusto.
 
