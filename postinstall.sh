@@ -2,6 +2,7 @@
 # Define variables
 LSB=/usr/bin/lsb_release
 
+cd /home
 
 clear 
 echo Vamos a añadir los repositorios al sistema
