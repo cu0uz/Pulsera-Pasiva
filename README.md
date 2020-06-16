@@ -18,7 +18,9 @@ Para este proyecto usamos la distribución MX-LINUX....
 
 # INSTRUCCIONES
 
-En este manual explicaremos la forma de crear el USB tanto en windows como en cualquier version de Linux en la que trabajeis. Todas las herramientas a las que nos referimos estarán facilitadas en la carpeta tools
+En este manual explicaremos la forma de crear el USB tanto en windows como en cualquier version de Linux en la que trabajeis. Todas las herramientas a las que nos referimos estarán facilitadas en:
+
+https://sourceforge.net/projects/pulsera-pasiva/files/
 
 Para este uso, solo nos referiremos a USB con capacidades de:
 
