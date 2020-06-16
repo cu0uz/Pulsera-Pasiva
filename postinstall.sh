@@ -2,6 +2,7 @@
 # Define variables
 LSB=/usr/bin/lsb_release
 
+cd /home
 
 clear 
 echo Vamos a añadir los repositorios al sistema
@@ -93,6 +94,8 @@ apt-get purge --autoremove
 apt-get purge $(deborphan --find-config)
 apt-get autoclean
 apt-get purge --autoremove
+
+rm /home/Pulsera-Pasiva
 
 echo Tarea finalizada, hasta luego.
 echo Powered by cu0uz
